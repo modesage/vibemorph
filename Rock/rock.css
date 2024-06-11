@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-family: 'Pirata One', sans-serif;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    
+    background-color: #111;
+    
+    color: #fff;
+    margin-bottom: 10px;
+    
+    transition: all 0.3s ease;
+}
+
+.home{
+    font-family: 'Alumni Sans';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    background-image: linear-gradient(45deg, #ff4a4a, #08DEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ccc;
+    padding: 0px 100px ;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+    color: #1f1f1f; /* Light gray text color */
+    line-height: 1.5;
+}
+
+#about {
+    margin: 40px 20px;
+}
+
+.intro {
+    text-align: center;
+    padding:  0px 0px 10px 0px;
+}
+
+.group{
+    display:inline;
+}
+
+.mood-options {
+
+    /* margin-bottom: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px ;
+    background-color: #111; 
+    text-align: center;
+    /* padding: 20px 20px 40px 20px; */
+    
+}
+
+.mood-options h3 {
+    font-size: 30px;
+    color: #ccc; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.mood-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mood-options li {
+    display: inline;
+    margin: 10px;
+}
+
+.mood-options a {
+    font-size: 22px;
+    color: #996A3C; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+#selected {
+    text-align: center;
+    font-size: 45px;
+    background-image: linear-gradient(45deg, #ff4a4a, #08DEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.mood-options a:hover {
+    text-align: center;
+    background-image: linear-gradient(45deg, #ff4a4a, #08DEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+
+.content {
+    text-align: center;
+    padding: 40px;
+    background: -webkit-radial-gradient(circle, #996A3C, #cead74, #996A3C); /* Black, Red, Black gradient background */
+    border: 2px solid #cead74; /* Red border for Rock and Roll */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #cead74; /* Red box shadow for Rock and Roll */
+    
+}
+
+/* Set a max width and max height for the iframe elements to prevent overflow */
+.content iframe {
+    max-width: 100%; /* Adjust the max width as needed */
+    max-height: 100%; /* Adjust the max height as needed */
+}
+
+/* Style for video rows */
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-cell {
+    box-shadow: 0 0 20px #111; 
+    border-radius: 10px;
+}

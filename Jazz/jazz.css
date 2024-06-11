@@ -1,0 +1,110 @@
+body {
+    font-family: 'Spectral', sans-serif;
+    background: linear-gradient(to bottom, #000000, #3E2723, #000000); /* Jazz night gradient background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.home{
+    font-family: 'Alumni Sans';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    background-image: linear-gradient(45deg, #ff4a4a, #08DEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    color: #ccc; /* Light gray text color */
+    line-height: 1.5;
+}
+
+#about {
+    margin: 40px 20px;
+}
+
+.intro {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.mood-options {
+    background: linear-gradient(to bottom, #3E2723); /* Jazz night gradient background for mood options */
+    text-align: center;
+    padding: 20px;
+}
+
+.mood-options h3 {
+    font-size: 24px;
+    color: #ccc; /* Brown text color for Jazz Vibe */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.mood-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mood-options li {
+    display: inline;
+    margin: 10px;
+}
+
+.mood-options a {
+    font-size: 20px;
+    color: #8D6E63; /* Brown text color for Jazz Vibe */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.mood-options a:hover {
+    text-align: center;
+    background-image: linear-gradient(45deg, #ff4a4a, #08DEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+    background: -webkit-radial-gradient(circle, #3E2723, #1C1210);
+    border: 2px solid #8D6E63; /* Brown border for Jazz Vibe */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #8D6E63; /* Brown box shadow for Jazz Vibe */
+}
+
+/* Set a max width and max height for the iframe elements to prevent overflow */
+.content iframe {
+    max-width: 100%; /* Adjust the max width as needed */
+    max-height: 100%; /* Adjust the max height as needed */
+}
+
+/* Style for video rows */
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-cell {
+    box-shadow: 0 0 20px #835546; 
+    border-radius: 10px;
+}
